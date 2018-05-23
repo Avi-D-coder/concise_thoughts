@@ -313,7 +313,7 @@ someFunc
 ```
 Great, it all worked!
 
-So, now well build it with `stack build`
+So, now we'll build it with `stack build`
 ```
 someFunc-hspec-0.1.0.0: build (lib + exe)
 Preprocessing library for someFunc-hspec-0.1.0.0..

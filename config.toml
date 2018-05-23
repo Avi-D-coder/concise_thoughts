@@ -1,4 +1,4 @@
-baseURL = "Avi-D-coder.github.io"
+baseURL = "Avi-D-coder.github.io/"
 languageCode = "en-us"
 MetaDataFormat = "toml"
 theme = "hyde-y"

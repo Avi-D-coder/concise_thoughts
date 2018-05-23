@@ -14,6 +14,7 @@ copyright = "(c) 2018 Avi ד."
 
 [params]
     brand = "Avi ד's concise thoughts"
+    topline = "Need a good dev? I am available to hire anywhere in the United States."
     sidebar = "left"
     highlight = "sunburst"
     github = "Avi-D-coder"

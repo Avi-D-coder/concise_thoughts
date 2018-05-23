@@ -388,7 +388,7 @@ fn test_some_func() {
 }
 ```
 
-Then well modify `main.rs`.
+Then we'll modify `main.rs`.
 #### main.rs
 ```rust
 mod lib;

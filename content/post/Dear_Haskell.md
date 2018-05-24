@@ -3,17 +3,17 @@ title: "Dear Haskell it's not you, it's your tooling."
 date: 2018-05-22T18:57:56-04:00
 ---
 
-#### Dear Haskell; yes you have some bad parts. `String` ahem. But for the most part I enjoy learning to write you. See, the problem is your friends; they are extremely agitating.
+##### Dear Haskell; yes you have some bad parts. `String` ahem. But for the most part I enjoy learning to write you. See, the problem is your friends; they are extremely agitating.
 
-## First, your recommend tool Stack
+#### First, your recommended tool Stack
 Stack does good work sometimes, but seems to prefer making very unreasonable choices:
 
-### Config hell
+##### Config hell
 The default project template has three config files: `config-hell.cabal` `package.yaml`, `stack.yaml`.
 So if you want to add a dependency, how pray tell would you do it?
 Let's look at the config files and see if there's a clear way.
 
-#### stack.yaml
+##### stack.yaml
 Well the tool we used way stack so let's start in `stack.yaml`.
 In `stack.yaml` the obvious choices are `packages` and `extra-deps` array.
 
@@ -94,7 +94,7 @@ Non Haskell dependencies?
 
 Well that didn't work, maybe the next config file.
 
-### package.yaml
+##### package.yaml
 **Success** an array called `dependencies` it has config hell in it, but it works!
 I can add `- lens` and run `stack ghci` followed by `import Control.Lens` with out an error.
 ```
@@ -103,10 +103,10 @@ I can add `- lens` and run `stack ghci` followed by `import Control.Lens` with o
     - lens
 ```
 
-### So what is config-hell.cabal?
+#### So what is config-hell.cabal?
 
 As it turns out `package.yaml` is just an alternative format for `config-hell.cabal` provided by [hpack](https://github.com/sol/hpack).
-### Putting It all together
+#### Putting It all together
 So, we have stack which is like a distribution of Haskell packages.
 If you want to use a package from a stack resolver/distribution then you put list it as a dependency in hpack's `package.yaml` or cabal's `config-hell.cabal` file, if your not using hpack.
 If you want a package that's not in the resolver/distribution you list it in `extra-deps` in `stack.yaml`.
@@ -114,8 +114,8 @@ Hey, that one made sense! You use the `stack` command to manage hpack which mana
 Some stack templates use hpack some don't.
 Wait what's a template?
 
-### Templates
-#### because it's not enough to have one over complicated build system.
+#### Templates
+##### because it's not enough to have one over complicated build system.
 
 Templates are just lightly configured projects.
 Running `stack templates` prints this beautifully documented list.
@@ -342,7 +342,7 @@ Let's make a test for `someFunc`
 
 First, we modify `Lib.hs` by making it return a string not IO.
 This is need necessary to test it as IO is very difficult to test.
-#### Lib.hs
+##### Lib.hs
 ```Haskell
 module Lib
     ( someFunc
@@ -352,7 +352,7 @@ someFunc :: String
 someFunc = "someFunc"
 ```
 Then we add `putStrLn` to `Main.hs`
-#### Main.hs
+##### Main.hs
 ```Haskell
 module Main where
 
@@ -375,7 +375,7 @@ some_func
 ```
 
 We will add a `lib.rs` file to `src` containing the function and it's test.
-#### lib.rs
+##### lib.rs
 ```rust
 /// some_func returns "some_func"
 pub fn some_func() -> &'static str {
@@ -389,7 +389,7 @@ fn test_some_func() {
 ```
 
 Then we'll modify `main.rs`.
-#### main.rs
+##### main.rs
 ```rust
 mod lib;
 use lib::some_func;
@@ -402,7 +402,7 @@ fn main() {
 Now `cargo test` passes!
 
 You'll notice there is only one config file.
-#### Cargo.toml
+##### Cargo.toml
 ```toml
 [package]
 name = "some_func"

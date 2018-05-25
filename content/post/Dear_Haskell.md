@@ -14,7 +14,7 @@ So if you want to add a dependency, how pray tell would you do it?
 Let's look at the config files and see if there's a clear way.
 
 ##### stack.yaml
-Well the tool we used way stack so let's start in `stack.yaml`.
+Well the tool we used was stack so let's start in `stack.yaml`.
 In `stack.yaml` the obvious choices are `packages` and `extra-deps` array.
 
 The comments above packages read:

@@ -34,7 +34,7 @@ The comments above packages read:
 #  - wai
 ```
 
-So `packages` are local directories and other addressable content. Not what were looking for.
+So `packages` are local directories and other addressable content. Not what we're looking for.
 
 What about `extra-deps`:
 
@@ -45,7 +45,7 @@ What about `extra-deps`:
 # extra-deps: []
 ```
 
-This looks more like what were looking for, but what the fuck is a resolver. 
+This looks more like what we're looking for, but what the fuck is a resolver. 
 At the top of `stack.yaml` it reads:
 
 ```
@@ -80,7 +80,7 @@ Is this a like a ppa?\
 ##### \<off_topic\>
 > God I'm having flash backs to my Ubuntu days.\
 > And Moses said thou shalt use Arch or a distribution no one has ever heard of,
-> and the people were happy until the people realized the were doing a full clone of every `*-git` aur package.\
+> and the people were happy until the people realized they were doing a full clone of every `*-git` aur package.\
 
 ##### \</off_topic\>
 
@@ -96,7 +96,7 @@ Well that didn't work, maybe the next config file.
 
 ##### package.yaml
 **Success** an array called `dependencies` it has config hell in it, but it works!
-I can add `- lens` and run `stack ghci` followed by `import Control.Lens` with out an error.
+I can add `- lens` and run `stack ghci` followed by `import Control.Lens` without an error.
 ```
     dependencies:
     - config-hell
@@ -278,7 +278,7 @@ rm -rf someFunc-hspec/src/Data
 rm -rf someFunc-hspec/test/Data
 
 cd someFunc-hspec
-``
+```
 
 To get
 ```sh

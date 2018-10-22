@@ -1,22 +1,24 @@
 baseURL = "https://avi-d-coder.github.io/"
+title = "Concise Thought"
 languageCode = "en-us"
-MetaDataFormat = "toml"
-theme = "hyde-y"
+theme = "hyde-hyde"
 
 paginate = 8
 paginatePath = "page"
 
+googleAnalytics = "UA-119786476-1"
+disqusShortname = "avi-ds-concise-thoughts"
+
+
 copyright = "(c) 2018 Avi ד."
 
-[author]
-    name = "Avi ד"
-    email = "avi.the.coder@gmail.com"
-
 [params]
-    brand = "Avi ד's concise thoughts"
-    topline = "Need&nbsp;good&nbsp;dev? I&nbsp;am&nbsp;available for hire anywhere in&nbsp;the United&nbsp;States."
-    sidebar = "left"
-    highlight = "sunburst"
+    author = "Avi ד"
+    title = "Concise Thought"
+    highlightjs = true
+    highlightjsstyle = "github"
+
+[params.social]
+    email = "avi.the.coder@gmail.com"
     github = "Avi-D-coder"
-    rss = false
-    googleAnalytics = "UA-119786476-1"
+

@@ -1,0 +1,14 @@
+[posts]
+    Name = "Posts"
+    Title = "Show list of posts"
+    URL = "/post"
+
+[dev_journal]
+    Name = "Dev Journal"
+    Title = "Show list of journal entries"
+    URL = "/journal"
+
+[tags]
+    Name = "Tags"
+    Title = "Show list of tags"
+    URL = "/tags"

@@ -1,12 +1,19 @@
 baseURL = "https://avi-d-coder.github.io/"
-languageCode = "en-us"
+title =  "Posts"
+
+languageCode = "en-US"
 MetaDataFormat = "toml"
 theme = "hyde-y"
 
 paginate = 8
 paginatePath = "page"
 
+disqusShortname = "avi-ds-concise-thoughts"
+
 copyright = "(c) 2018 Avi ד."
+
+[taxonomies]
+    tag = "tags"
 
 [author]
     name = "Avi ד"

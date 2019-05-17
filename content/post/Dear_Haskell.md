@@ -336,7 +336,7 @@ someFunc-hspec.cabal
 ```
 So ghci doesn't read the cabal config.
 If we replace `Data.String.Strip` with `Lib`.
-`stack build` is success full.
+`stack build` is successful.
 
 Let's make a test for `someFunc`
 

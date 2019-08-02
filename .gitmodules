@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:Avi-D-coder/Avi-D-coder.github.io.git
 	branch = master
+[submodule "themes/hyde-y"]
+	path = themes/hyde-y
+	url = https://github.com/enten/hyde-y.git

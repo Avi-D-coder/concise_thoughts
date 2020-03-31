@@ -407,7 +407,7 @@ You'll notice there is only one config file.
 [package]
 name = "some_func"
 version = "0.1.0"
-authors = ["Avi ד <avi.the.coder@gmail.com>"]
+authors = ["Avi Dessauer <avi.the.coder@gmail.com>"]
 
 [dependencies]
 ```

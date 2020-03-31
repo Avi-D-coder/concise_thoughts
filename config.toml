@@ -8,7 +8,7 @@ theme = "hyde-y"
 paginate = 8
 paginatePath = "page"
 
-disqusShortname = "avi-ds-concise-thoughts"
+disqusShortname = ""
 
 copyright = "(c) 2018 Avi ד."
 
@@ -16,11 +16,11 @@ copyright = "(c) 2018 Avi ד."
     tag = "tags"
 
 [author]
-    name = "Avi ד"
+    name = "Avi Dessauer"
     email = "avi.the.coder@gmail.com"
 
 [params]
-    brand = "Avi ד's concise thoughts"
+    brand = "Avi Dessauer's slightly concise thoughts"
     topline = "Need&nbsp;good&nbsp;dev? I&nbsp;am&nbsp;available for hire anywhere in&nbsp;the United&nbsp;States."
     sidebar = "left"
     highlight = "sunburst"

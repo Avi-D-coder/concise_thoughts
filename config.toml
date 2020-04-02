@@ -1,5 +1,5 @@
 baseURL = "https://avi-d-coder.github.io/"
-title =  "Posts"
+title =  "Blog"
 
 languageCode = "en-US"
 MetaDataFormat = "toml"
@@ -10,7 +10,7 @@ paginatePath = "page"
 
 disqusShortname = ""
 
-copyright = "(c) 2018 Avi ד."
+copyright = "(c) 2020 Avi ד."
 
 [taxonomies]
     tag = "tags"

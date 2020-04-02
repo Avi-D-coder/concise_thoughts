@@ -3,10 +3,10 @@
     Title = "Show list of posts"
     URL = "/post"
 
-[dev_journal]
-    Name = "Dev Journal"
-    Title = "Show list of journal entries"
-    URL = "/journal"
+[resume]
+    Name = "Résumé"
+    Title = "My Résumé"
+    URL = "/resume"
 
 [tags]
     Name = "Tags"

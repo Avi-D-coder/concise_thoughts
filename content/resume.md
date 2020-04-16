@@ -8,8 +8,8 @@ draft: false
 
 - Frequent open source contributor, avid Hacker News and r/Haskell reader
 - Experience with:
-	+ Rust: Years of experience writing it, following RFCs & ecosystem. 
-	Currently prototyping a concurrent tracing [GC](https://github.com/Avi-D-coder/concise-gc-design).
+	+ Rust: Years of experience writing it, following RFCs & ecosystem.  
+	  Currently prototyping a concurrent tracing [GC](https://github.com/Avi-D-coder/concise-gc-design).
 	+ Haskell: collaborator on [haskell-IDE-engine/hls project](https://github.com/haskell/haskell-ide-engine),  
 		contributions to dozens of other Haskell projects, follow ghc-proposals & ecosystem. 
 		Currently implementing a visual, debugger that displays the graph of values and thunks over time.

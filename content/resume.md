@@ -1,36 +1,55 @@
 ---
 title: "Résumé"
-date: 2020-03-18T13:18:27-04:00
+date: 2020-11-19
 draft: false
 ---
-## AviDessauer :: FunctionalSystemsProgrammer
-##### [avidessauer@gmail.com](mailto:avidessauer@gmail.com), [github profile](https://github.com/Avi-D-coder)
+## Avi Dessauer :: `FunctionalSystemsProgrammer`
 
-- Frequent open source contributor, avid Hacker News and r/Haskell reader
-- Experience with:
-	+ Rust: Years of experience writing it, following RFCs & ecosystem.  
-	  Currently prototyping a concurrent tracing [GC](https://github.com/Avi-D-coder/concise-gc-design).
-	+ Haskell: collaborator on [haskell-IDE-engine/hls project](https://github.com/haskell/haskell-ide-engine),  
-		contributions to dozens of other Haskell projects, follow ghc-proposals & ecosystem. 
-		Currently implementing a visual, debugger that displays the graph of values and thunks over time.
-	+ JavaScript/Typescript: [Improved Node.js readline Unicode handling](https://github.com/nodejs/node/pull/25723),  
-		Contributions to Coc.nvim,  
-	  Some frontend web development, mostly backend Nodejs
-	+ SQL: College class, plus some prior experience
-	+ Linux/Unix:
-		- Started learning on Ubuntu 12.04, Arch currently
-		- Looking for an excuse to switch to Nix
-	+ Bash: Significant scripting experience
-	+ Python 2/3: Minimal experience, patching programs, and scripting.
-	+ Swift: pre 3.0, no longer applicable
-	+ Competence with all the basics: Big O, HTML, CSS, Web protocols, Vimscript, debuging, assembly, etc..
-- Significant theoretical/implementation & practical working knowledge of:
-	+ Concurrency / Parallelism design approaches:
-		- Distributed Systems & Databases: consensus protocols, ACID alternative consistency levels
-		- High Level: coroutines, Green threads, actors
-		- Low level: Unix threads, C11 atomics, various locks, lock freedom
-	+ Tracing & concurrent garbage collector design
+##### <avidessauer@gmail.com>, [github profile](https://github.com/Avi-D-coder)
 
+#### Experience:
 
-General knowledge of computer science developed over more than half a decade,  
-of daily self driven education.
+*   A Tweag Summer 2020 Open Source [Fellow](https://www.tweag.io/blog/2020-06-05-fellows-announce/)
+*   Frequent open source contributor
+*   General knowledge of computer science developed over more than half a decade,\
+    of daily self driven education.
+
+#### Technologies:
+
+*   **Haskell**:
+    *   Collaborator on [haskell-IDE-engine/haskell-language-server](https://github.com/haskell/haskell-ide-engine).
+    *   Author of [implicit-hie](https://github.com/Avi-D-coder/implicit-hie), used by HLS and Ghcide to remove the need for `hie.yaml` files.
+    *   Contributions to dozens of other open source Haskell projects.
+    *   Follow ghc-proposals & ecosystem developments.
+
+*   **Rust**:
+    *   Tweag Fellowship: authored Sundial-GC, a FP focused typed concurrent copying GC.
+    *   Years of experience writing Rust, and following RFCs & ecosystem.
+
+*   **JavaScript/Typescript**: [Improved Node.js readline Unicode handling](https://github.com/nodejs/node/pull/25723),\
+    Contributions to Coc.nvim,\
+    Some frontend web development, mostly backend Nodejs
+
+*   **SQL**: College class, plus some prior experience
+
+*   **Linux/Unix**:
+    *   Started learning on Ubuntu 12.04, Arch currently
+    *   Looking for an excuse to switch to Nix
+
+*   **Bash**: Significant scripting experience
+
+*   **Python** 2/3: Minimal experience, patching programs, and scripting.
+
+*   **Swift**: pre 3.0, no longer applicable
+
+*   **Competence with all the basics**:\
+    Big O, HTML, CSS, Web protocols, Vimscript, debuging, assembly, etc..
+
+#### Significant theoretical/implementation & practical working knowledge of:
+
+*   **Concurrency / Parallelism design approaches**:
+    *   **Distributed Systems & Databases**: consensus protocols, ACID,\
+        and the trade-offs of alternative consistency guaranties
+    *   **High Level**: coroutines, Green threads, actors
+    *   **Low level**: Unix threads, C11 atomics, various locks, lock freedom
+*   Tracing & concurrent garbage collector development.

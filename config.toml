@@ -21,7 +21,7 @@ copyright = "(c) 2020 Avi ד."
 
 [params]
     brand = "Avi Dessauer's slightly concise thoughts"
-    topline = "Need&nbsp;good&nbsp;dev? I&nbsp;am&nbsp;available for hire anywhere in&nbsp;the United&nbsp;States."
+    # topline = "Need&nbsp;good&nbsp;dev? I&nbsp;am&nbsp;available for hire anywhere in&nbsp;the United&nbsp;States."
     sidebar = "left"
     highlight = "sunburst"
     github = "Avi-D-coder"
